@@ -38,8 +38,8 @@ CREATE TABLE `clients` (
 --
 
 INSERT INTO `clients` (`id`, `name`, `email`, `address`) VALUES
-(14, 'panchito', 'panchito_tester@mail.com', 'libertad'),
-(16, 'ulises', 'ulises@mail.com', 'independencia');
+(14, 'yeffer', 'yeffer.buitrago@mail.com', 'Bogota'),
+(16, 'prueba', 'prueba@mail.com', 'Bogota');
 
 -- --------------------------------------------------------
 
@@ -58,7 +58,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `email`, `password`) VALUES
-(1, 'test@dev.com', '$2y$10$/IKYMpshIx8rPOtDIEnkReKb2x4WIrAUgQxJSxZc6cOd.I5cIHYeS');
+(1, 'test@test.com', '$2y$10$/IKYMpshIx8rPOtDIEnkReKb2x4WIrAUgQxJSxZc6cOd.I5cIHYeS');
 
 --
 -- Índices para tablas volcadas
